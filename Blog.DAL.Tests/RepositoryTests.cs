@@ -23,7 +23,7 @@ namespace Blog.DAL.Tests
             var repository = new BlogRepository();
             // act
             var result = repository.GetAllPosts();
-            // assert
+            // assert change
             Assert.AreEqual(0, result.Count());
         }
     }
